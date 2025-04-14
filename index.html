@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Understanding K-12 Teachers’ Needs for AI Education: A Survey-Based Study</title>
   <style>
     body {
@@ -25,10 +25,30 @@
     header h1 {
       margin-bottom: 0.5rem;
     }
-    header p {
-      margin: 0.25rem 0;
+    header .authors {
+      margin-bottom: 1.5rem;
       font-size: 0.9rem;
       color: #666;
+    }
+    header .authors a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    header .authors a:hover {
+      text-decoration: underline;
+    }
+    /* Author Photos Container */
+    .author-photos {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    /* Circular Image Style */
+    .bio-image {
+      max-width: 150px;
+      border-radius: 50%;
+      border: 2px solid #ddd;
     }
     h2 {
       border-bottom: 2px solid #ddd;
@@ -56,18 +76,6 @@
       border-top: 1px solid #ddd;
       padding-top: 1rem;
     }
-    a {
-      color: #0366d6;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .bio-image {
-      margin-top: 1rem;
-      max-width: 200px;
-      border-radius: 50%;
-    }
   </style>
 </head>
 <body>
@@ -76,11 +84,29 @@
     <header>
       <h1>Understanding K-12 Teachers’ Needs for AI Education: A Survey-Based Study</h1>
       <div class="authors">
-        <p>Authors: Nazan Bautista, <a href="https://jfemiani.github.io/" target="_blank">John Femiani</a>, Daniela Inclezan</p>
+        <p>Authors: 
+          <a href="https://miamioh.edu/profiles/ehs/nazan-bautista.html" target="_blank">Nazan Bautista</a>, 
+          <a href="https://jfemiani.github.io/" target="_blank">John Femiani</a>, 
+          <a href="https://miamioh.edu/profiles/cec/daniela-inclezan.html" target="_blank">Daniela Inclezan</a>
+        </p>
         <p>Miami University, Oxford, OH, USA</p>
         <p>Email: nubautista@miamioh.edu, femianjc@miamioh.edu, inclezd@miamioh.edu</p>
       </div>
-      <img src="https://jfemiani.github.io/images/bio-photo.jpg" alt="John Femiani Bio Photo" class="bio-image">
+      <!-- Author Photos -->
+      <div class="author-photos">
+        <!-- Nazan's Image (ensure correct path or URL) -->
+        <a href="https://miamioh.edu/profiles/ehs/nazan-bautista.html" target="_blank">
+          <img src="images/nazan-bautista.jpg" alt="Nazan Bautista Bio Photo" class="bio-image" />
+        </a>
+        <!-- John's Image -->
+        <a href="https://jfemiani.github.io/" target="_blank">
+          <img src="https://jfemiani.github.io/images/bio-photo.jpg" alt="John Femiani Bio Photo" class="bio-image" />
+        </a>
+        <!-- Daniela's Image (ensure correct path or URL) -->
+        <a href="https://miamioh.edu/profiles/cec/daniela-inclezan.html" target="_blank">
+          <img src="images/daniela-inclezan.jpg" alt="Daniela Inclezan Bio Photo" class="bio-image" />
+        </a>
+      </div>
     </header>
     
     <!-- Abstract Section -->
